@@ -1,0 +1,41 @@
+[root@slurm-master x86_64]# rpm -ivh slurm-20.11.2-1.el7.centos.x86_64.rpm slurm-devel-20.11.2-1.el7.centos.x86_64.rpm slurm-slurmctld-20.11.2-1.el7.centos.x86_64.rpm slurm-slurmrestd-20.11.2-1.el7.centos.x86_64.rpm slurm-example-configs-20.11.2-1.el7.centos.x86_64.rpm slurm-perlapi-20.11.2-1.el7.centos.x86_64.rpm
+error: Failed dependencies:
+	libjwt.so.0()(64bit) is needed by slurm-20.11.2-1.el7.centos.x86_64
+[root@slurm-master x86_64]# whereis libjwt.so.0
+libjwt.so: /usr/lib64/libjwt.so.0 /usr/lib64/libjwt.so /usr/local/lib/libjwt.so.0 /usr/local/lib/libjwt.so
+[root@slurm-master x86_64]# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
